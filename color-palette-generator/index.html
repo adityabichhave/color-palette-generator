@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎨 Color Palette Generator</h1>
+    <p>Generate beautiful color palettes and copy or download them easily.</p>
+
+    <div id="palette"></div>
+
+    <div class="buttons">
+        <button id="generateBtn">Generate New Palette</button>
+        <button id="copyAll">Copy All Hex Codes</button>
+        <button id="downloadPNG">Download Palette PNG</button>
+        <button id="savePalette">Save Palette</button>
+    </div>
+
+    <h2>Saved Palettes</h2>
+    <div id="savedPalettes"></div>
+
+    <canvas id="canvas" width="600" height="150" style="display:none;"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
