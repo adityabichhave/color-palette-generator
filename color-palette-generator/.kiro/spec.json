@@ -1,0 +1,18 @@
+{
+  "project_name": "color-palette-generator",
+  "description": "A single-purpose website that generates random color palettes and allows users to copy hex codes with one click.",
+  "version": "1.0.0",
+  "type": "frontend",
+  "stack": ["html", "css", "javascript"],
+  "features": [
+    "Generate 5 random colors",
+    "Click to copy hex code",
+    "Refresh palette button",
+    "Save palette button"
+  ],
+  "agents": {
+    "developer": true,
+    "refactor": true,
+    "debug": true
+  }
+}
